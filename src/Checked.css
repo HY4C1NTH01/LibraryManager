@@ -1,0 +1,97 @@
+body{
+    background-color: lightblue;
+    padding: 1%;
+}
+
+.search{
+  height: 55px;
+  width: 95%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: none;
+}
+
+#table{
+counter-reset: section;
+height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  background-color: rgb(101, 1, 1);
+  color: plum;
+  border: 2px solid purple;
+  border-radius: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.count:before{
+  counter-increment: section;
+  content: counter(section);
+}
+
+#table  th{
+  font-weight: bolder;
+  font-size: 30px;
+  border: 2px solid darkred;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: maroon;
+  padding: 5px;
+}
+
+#table td{
+  border: 2px solid maroon;
+  border-collapse: collapse;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+#about-btn{
+   background-color: whitesmoke;
+  color: rgb(7, 114, 207);
+
+}
+
+#about-btn:hover{
+  background-color: rgb(7, 114, 207);
+  color: whitesmoke;
+}
+
+#return-btn{
+  background-color: lemonchiffon;
+  color: darkolivegreen;
+
+}
+
+#return-btn:hover{
+  background-color: darkolivegreen;
+  color: lemonchiffon;
+}
+
+.pagination{
+  padding-left: 25%;
+  margin: 2%;
+}
+
+.page-btn{
+  background-color: aqua;
+  margin: 1.5%;
+}
+
+.page-btn:hover{
+    background-color: azure;
+}
+
+#home-btn{
+    background-color: chocolate;
+    color: lavenderblush;
+    margin-top: 5%;  
+}
+
+#home-btn:hover{
+    background-color: lavenderblush;
+    color: chocolate;
+}

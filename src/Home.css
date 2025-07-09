@@ -1,0 +1,108 @@
+body{
+  background-color: darkslateblue;
+  color: darkblue
+}
+
+#lib{
+margin-left: 35px;
+font-size: 50px;
+color: black;
+}
+
+.search-inp{
+  height: 50px;
+  width: 40%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 2px solid saddlebrown;
+}
+
+#name{
+  height: 55px;
+  width: 40%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  padding-left: 1%;
+  border: 2px solid saddlebrown;
+}
+
+.display{
+  counter-reset: section;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 7.5%;
+  padding: 20px;
+  background-color: purple;
+  color: lightblue;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  text-align: center;
+  border-collapse: collapse;
+
+}
+
+.display th{
+  font-weight: bolder;
+  font-size: 30px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  background-color: darkred;
+  color: lightgreen;
+  padding: 10px;
+}
+
+.display td{
+  border: 2px solid maroon;
+  border-collapse: collapse;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.about-btn{
+  background-color: rgb(7, 114, 207);
+  color: whitesmoke;
+}
+
+.about-btn:hover{
+  background-color: whitesmoke;
+  color: rgb(7, 114, 207);;
+}
+
+.check-btn{
+  background-color: darkolivegreen;
+  color: lemonchiffon;
+}
+
+.check-btn:hover{
+  background-color: lemonchiffon;
+  color: darkolivegreen;
+}
+
+.count:before{
+  counter-increment: section;
+  content: counter(section);
+}
+
+.pagination{
+padding: 0;
+}
+
+.page-btn{
+  background-color: aquamarine;
+}
+
+.counter{
+  margin-top: 2%;
+}
+
+.redirect{
+  margin-top: 5%;
+  background-color: lightskyblue;
+}
+
+.redirect:hover{
+  background-color: navy;
+  color: white;
+}
